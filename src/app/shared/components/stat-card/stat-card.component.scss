@@ -1,0 +1,25 @@
+.stat-card {
+  border-radius: 16px;
+  transition: 0.3s ease;
+}
+
+.stat-card:hover {
+  transform: translateY(-4px);
+}
+
+.stat-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h2 {
+  font-size: 28px;
+  font-weight: bold;
+  margin: 0;
+}
+
+p {
+  margin: 4px 0 0 0;
+  color: gray;
+}
